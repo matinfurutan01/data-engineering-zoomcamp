@@ -7,8 +7,8 @@ variable "credentials" {
 
 
 variable "project" {
-  description = "Project"
-  default     = "<Your Project ID>"
+  description = "Your GCP Project ID"
+  default     = "ny-rides-matin"
 }
 
 variable "region" {
